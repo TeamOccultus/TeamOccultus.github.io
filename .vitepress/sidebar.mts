@@ -185,9 +185,9 @@ export const sidebar:
         {
           text: "BOSS",
           items: [
-            { text: "BOSS 概览", link: "/wiki/boss/" },
             { text: "红宝石之王", link: "/wiki/boss/king-of-ruby" },
-            { text: "法老之魂", link: "/wiki/boss/pharaohs-ghost" },
+            { text: "法老残影", link: "/wiki/boss/pharaohs-ghost" },
+            { text: "「创世者」的愤怒", link: "/wiki/boss/mutas-wrath" },
           ],
           collapsed: true,
         },
@@ -200,7 +200,11 @@ export const sidebar:
         {
           text: "魔法",
           items: [
-            { text: "魔法酿造", link: "/wiki/gameplay/magic/magic-brewing" },
+            { text: "基础要素", link: "/wiki/gameplay/magic/basic" },
+            { text: "魔法酿造", link: "/wiki/gameplay/magic/brewing" },
+            { text: "魔法锻造", link: "/wiki/gameplay/magic/equip" },
+            { text: "传送魔法", link: "/wiki/gameplay/magic/teleport" },
+            { text: "炼金", link: "/wiki/gameplay/magic/alchemy" },
           ],
         },
         { text: "盔甲效果", link: "/wiki/gameplay/armor-effect" },
