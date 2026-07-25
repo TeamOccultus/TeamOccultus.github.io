@@ -1,78 +1,126 @@
----
-title: 什么是隐藏之年
-createTime: 2024/09/29 14:45:23
-permalink: /docs/tutorials/what-is-hy2/
-icon: material-symbols:book
-tags:
-  - 教程
-  - 入门教程
----
-[![隐藏之年](https://s11.ax1x.com/2024/02/16/pFGrHiQ.png)](https://imgse.com/i/pFGrHiQ)
-
-# 隐藏之年²-「探索未知的世间」
+# 什么是隐藏之年
 
 欢迎使用隐藏之年²——一款仍在不断完善中的 Minecraft 冒险模组！
 
-本模组将从内至外地改变世界，初入你可能并未发现与原版游戏的不同，但随着探索的深入，潜藏在世界深处的秘密将逐渐被揭开……
+本项目将从内至外地改变世界，初入你可能并未发现与原版游戏的不同，但随着探索的深入，潜藏在世界深处的秘密将逐渐被揭开……
 
-## 内容亮点
+## 内容介绍
 
-[![任务系统](https://s21.ax1x.com/2024/08/13/pApzJ9s.png)](https://imgse.com/i/pApzJ9s)
-经过精心编排过的任务系统，让你在游玩过程中不再迷失方向！
+你自孤单的长眠中醒来，无数风雨使坚石也作尘沙。
 
-[![部分材料一览](https://s21.ax1x.com/2024/08/13/pApz3NQ.png)](https://imgse.com/i/pApz3NQ)
-更多的、更新的材料，囊括前期过渡到后期毕业材料，为你的冒险之旅保驾护航
+穿越旖旎的风景，探索未知的世间。
 
-[![货币](https://s21.ax1x.com/2024/08/13/pApz8hj.png)](https://imgse.com/i/pApz8hj)
-三种新的货币，它们与原版的绿宝石等效，但获取更为方便，用它们和村民进行交易吧！
+此时此刻，广阔的天地任你探索；过去未来，历史将由你书写。 ​
 
-[![部分工具一览](https://s21.ax1x.com/2024/08/13/pApzY3n.png)](https://imgse.com/i/pApzY3n)
-许多奇妙的工具，让你的冒险之旅增添几分不一样的乐趣！
+<VPSwiper
+  :slides="[
+    'https://s41.ax1x.com/2026/02/17/pZONV9U.png',
+    'https://s41.ax1x.com/2026/02/17/pZONZ3F.png',
+    'https://s41.ax1x.com/2026/01/29/pZWOfi9.png',
+    'https://s21.ax1x.com/2025/02/11/pEnhlcV.png',
+    'https://s41.ax1x.com/2026/02/17/pZONec4.png',
+    'https://raw.githubusercontent.com/django-files/repo-images/refs/heads/master/django-files/docs/6.jpg',
+    'https://raw.githubusercontent.com/django-files/repo-images/refs/heads/master/django-files/docs/7.jpg',
+    'https://raw.githubusercontent.com/django-files/repo-images/refs/heads/master/django-files/docs/8.jpg',
+  ]"
+  :navigation="false"
+  :loop="false"
+  :lazy-preload-prev-next="3"
+  :space-between="12"
+  :pagination="{ type: 'progressbar' }"
+/>
+
+## 下载
+> ⚠️使用、修改或分发本项目，即视为已阅读并同意遵守 HY-OSS 许可证全部条款。
+
+*💡本项目文本量较大，我们推荐使用[基岩版翻译修正](https://github.com/ff98sha/mclangcn)和[原版中文字符全角修复](https://mcpedl.com/vanilla-chinese-characters-and-full-width-punctuation-characters-fix/)附加包来提升游戏体验*
+
+### 正式版
+
+- [基岩版下载](https://fanglimao.lanzoul.com/b00l1210uh)
+
+### 构建版
+
+[![status-badge](https://ci.codeberg.org/api/badges/14436/status.svg)](https://ci.codeberg.org/repos/14436)
+
+本项目的构建版本在 [Codeberg Package](https://codeberg.org/TeamOccultus/-/packages/generic/hiddenyears2) 上发布。
 
 ## 版权声明
 
-本模组按照 BSD 3-Clause 协议提供，根据此协议，你拥有：
+本项目由 Team Occultus 开发，采用 HY-OSS 许可证授权：
 
-- 自由地使用隐藏之年²的权利
-- 自由地转载隐藏之年²到其他平台的权利
-- 自由地对隐藏之年²进行二次开发的权利
+- 允许在非商业用途前提下，自由游玩、分发本作品，修改、创作衍生作品并再分发项目代码
+- 再分发时必须附带本许可证副本、标注文件修改记录、保留原始版权声明，并明确标注「非官方版本」
+- 禁止对项目本体及核心功能进行任何形式商业变现（售卖、订阅、付费墙、广告变现等）
+- 可接受无专属福利的自愿捐赠，可提供与核心功能分离的收费增值服务（如技术支持）
+- 「HiddenYears™ / 隐藏之年™ / HY」及相关Logo为核心标识，严禁用于产品名、宣传或冒充官方
+- 项目「按现状」提供，官方不提供技术支持、不提供任何质量保证
+- 使用者需自行承担使用、修改与分发本项目的全部风险
+- 纹理、模型、声音、音乐等客户端资源：独立遵循 CC BY-SA 4.0 许可证
+ 
+**使用、修改或分发本项目，即视为已阅读并同意遵守 HY-OSS 许可证全部条款。**
 
-如果要进行转载或二次分发，你必须附上以下许可证并标明原作者：
+## 开发文档
 
-::: details 单击此处以展开许可证
-```
-BSD 3-Clause License
+本项目开放的接口可以在[开发文档](https://teamoccultus.codeberg.page/HiddenYears2/)找到。
 
-Copyright (c) 2023-2024, 隐藏之年开发组
+注意：这些文档内嵌于代码仓库中，并由 Typedoc 自动生成，因此可能会包括错误和未公开的接口。
 
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are met:
+## 支持语言
 
-1. Redistributions of source code must retain the above copyright notice, this
-   list of conditions and the following disclaimer.
+- 简体中文：原生支持
+- 英语（美国）
+- 繁体中文
+- 文言文：正常情况下无法启用
+- 日语：机器翻译
+- 俄语：机器翻译
 
-2. Redistributions in binary form must reproduce the above copyright notice,
-   this list of conditions and the following disclaimer in the documentation
-   and/or other materials provided with the distribution.
+[![翻译状态](https://translate.codeberg.org/widget/hidden-years/multi-auto.svg)](https://translate.codeberg.org/engage/hidden-years/)
 
-3. Neither the name of the copyright holder nor the names of its
-   contributors may be used to endorse or promote products derived from
-   this software without specific prior written permission.
+我们的翻译向社区开放，任何人均可以通过 [Codeberg Translate](https://translate.codeberg.org/projects/hidden-years/) 向我们贡献译文。
 
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
-AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
-DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
-FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
-DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
-SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
-CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
-OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
-OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-```
-:::
+## 幕后工作者
+### Team Occultus(隐年组)
+- 方漓猫：项目负责人、基岩版程序开发、主策划
+- 星零大队长：主美术
+- RawDiamondMC：程序开发
+- Luning_39：基岩版程序开发
+- 哈基尽：策划、模型、动画
+- 夙风：建筑
+- Xiris：模型、美术
+- KuLou_D：美术
+- Jess：美术
+- 是亚克力：美术
+- Gstbnnnnnn：美术
+- 小史龙吖Slime_Dragon：美术
+- FREirc：音乐和英文本地化
+- LnW：音乐
+- 筱风鸢：策划
+- CrystalLine：英文本地化
+- StoneNugget：本地化工作
+- NewBee_Bar：团队吉祥物
+- Призмарин：俄文本地化
 
-## 写在最后
-愿所有看到这里的冒险家能够在隐藏之年的世界中获得不一样的乐趣！
+### OTeam（合作团队）
+- 铭杉：建筑师
 
-愿你我的旅途，不论在游戏世界或者现实中，一路顺风无阻，处处生花！
+### 特别鸣谢
+- JD：提供技术支持
+- 沉寂的杀手：制作宣传片
+- portedboar44215：贡献PBR纹理
+- 多位玩家（痴人心心念念、毅轩氵帖、苏晴晴在此、合理的Fish、绝对零度·沉寂、柘玄等）：提供功能建议
+- Kastname：协助在MC百科投稿
+
+
+## 相关链接
+
+- 苦力怕论坛：https://klpbbs.com/thread-85797-1-1.html
+- Minebbs：https://www.minebbs.com/resources/6182/
+- CurseForge：https://www.curseforge.com/minecraft-bedrock/addons/hidden-years2
+- MCPEDL：https://mcpedl.com/hidden-years2/
+- 苦力怕论坛反馈：https://klpbbs.com/thread-109005-1-1.html
+- Minefourm：https://www.mineforum.cn/resources/10/
+- MC百科：https://www.mcmod.cn/class/12453.html
+- Codeberg：https://codeberg.org/TeamOccultus/HiddenYears2
+- QQ群：499251252
+- 【推荐模组】石头工艺：https://klpbbs.com/thread-28013-1-1.html
