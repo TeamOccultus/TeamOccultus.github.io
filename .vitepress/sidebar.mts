@@ -632,6 +632,55 @@ export const sidebar:
   ],
   "/tutorial/": [
     {
+      text: "踏上征程",
+      collapsed: false,
+      items: [
+        {
+          text: "开始冒险",
+          link: "/tutorial/start",
+        },
+        {
+          text: "选择职业",
+          link: "/tutorial/job",
+        },
+        {
+          text: "获取饰品",
+          link: "/tutorial/artifact",
+        },
+      ],
+    },
+    {
+      text: "工具与武器",
+      link: "/tutorial/tool/",
+      items: [
+        { text: "重锤", link: "/tutorial/tool/hammer" },
+        { text: "战锤", link: "/tutorial/tool/sledgehammer" },
+        { text: "撬棍", link: "/tutorial/tool/crowbar" },
+        { text: "匕首", link: "/tutorial/tool/dagger" },
+        { text: "锯", link: "/tutorial/tool/saw" },
+        { text: "远程武器", link: "/tutorial/tool/ranged_weapon" },
+      ],
+      collapsed: true,
+    },
+    {
+      text: "BOSS",
+      items: [
+        { text: "红宝石之王", link: "/tutorial/boss/king-of-ruby" },
+        { text: "法老残影", link: "/tutorial/boss/pharaohs-ghost" },
+        { text: "「创世者」的愤怒", link: "/tutorial/boss/mutas-wrath" },
+      ],
+      collapsed: true,
+    },
+    {
+      text: "高级教程",
+      items: [
+        { text: "获取内容日志", link: "/tutorial/advance/get-content-log" },
+        { text: "手动导入", link: "/tutorial/advance/manual-import" },
+      ],
+      collapsed: true,
+    },
+    /*
+    {
       text: "物品",
       items: [
         {
@@ -640,21 +689,6 @@ export const sidebar:
             { text: "基础材料", link: "/tutorial/material/basic" },
             { text: "进阶材料", link: "/tutorial/material/advanced" },
             { text: "终极材料", link: "/tutorial/material/ultimate" },
-          ],
-          collapsed: true,
-        },
-        {
-          text: "工具与武器",
-          items: [
-            { text: "工具与武器概览", link: "/tutorial/tool/" },
-            { text: "技能", link: "/tutorial/tool/skill" },
-            { text: "魔法攻击", link: "/tutorial/tool/magic-attack" },
-            { text: "锤子", link: "/tutorial/tool/hammer" },
-            { text: "撬棍", link: "/tutorial/tool/crowbar" },
-            { text: "锥子", link: "/tutorial/tool/awl" },
-            { text: "小刀", link: "/tutorial/tool/knife" },
-            { text: "匕首", link: "/tutorial/tool/dagger" },
-            { text: "宽刃剑", link: "/tutorial/tool/boardsword" },
           ],
           collapsed: true,
         },
@@ -680,18 +714,7 @@ export const sidebar:
     },
     {
       text: "实体",
-      items: [
-        { text: "月蚀怪物", link: "/tutorial/entity/lunamutatio" },
-        {
-          text: "BOSS",
-          items: [
-            { text: "红宝石之王", link: "/tutorial/boss/king-of-ruby" },
-            { text: "法老残影", link: "/tutorial/boss/pharaohs-ghost" },
-            { text: "「创世者」的愤怒", link: "/tutorial/boss/mutas-wrath" },
-          ],
-          collapsed: true,
-        },
-      ],
+      items: [{ text: "月蚀怪物", link: "/tutorial/entity/lunamutatio" }],
       collapsed: true,
     },
     {
@@ -721,7 +744,7 @@ export const sidebar:
         { text: "获取内容日志", link: "/tutorial/get-content-log" },
       ],
       collapsed: false,
-    },
+    },*/
   ],
   "/about/": [
     {
