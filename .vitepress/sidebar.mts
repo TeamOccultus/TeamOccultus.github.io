@@ -650,6 +650,17 @@ export const sidebar:
       ],
     },
     {
+      text: "魔法",
+      collapsed: false,
+      items: [
+        { text: "基础要素", link: "/tutorial/magic/basic" },
+        { text: "魔法酿造", link: "/tutorial/magic/brewing" },
+        { text: "魔法锻造", link: "/tutorial/magic/equip" },
+        { text: "传送魔法", link: "/tutorial/magic/teleport" },
+        { text: "炼金", link: "/tutorial/magic/alchemy" },
+      ],
+    },
+    {
       text: "工具与武器",
       link: "/tutorial/tool/",
       items: [
@@ -720,16 +731,7 @@ export const sidebar:
     {
       text: "游戏机制",
       items: [
-        {
-          text: "魔法",
-          items: [
-            { text: "基础要素", link: "/tutorial/gameplay/magic/basic" },
-            { text: "魔法酿造", link: "/tutorial/gameplay/magic/brewing" },
-            { text: "魔法锻造", link: "/tutorial/gameplay/magic/equip" },
-            { text: "传送魔法", link: "/tutorial/gameplay/magic/teleport" },
-            { text: "炼金", link: "/tutorial/gameplay/magic/alchemy" },
-          ],
-        },
+        
         { text: "盔甲效果", link: "/tutorial/gameplay/armor-effect" },
         { text: "统一货币值", link: "/tutorial/gameplay/ucv" },
         { text: "职业", link: "/tutorial/gameplay/jobs" },
