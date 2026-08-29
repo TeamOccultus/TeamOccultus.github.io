@@ -651,7 +651,7 @@ export const sidebar:
     },
     {
       text: "魔法",
-      collapsed: false,
+      collapsed: true,
       items: [
         { text: "基础要素", link: "/tutorial/magic/basic" },
         { text: "魔法酿造", link: "/tutorial/magic/brewing" },
@@ -666,6 +666,7 @@ export const sidebar:
         { text: "基础材料", link: "/tutorial/material/basic" },
         { text: "进阶材料", link: "/tutorial/material/advanced" },
         { text: "终极材料", link: "/tutorial/material/ultimate" },
+        { text: "盔甲效果", link: "/tutorial/material/armor-effect" },
       ],
       collapsed: true,
     },
@@ -733,7 +734,7 @@ export const sidebar:
       text: "游戏机制",
       items: [
         
-        { text: "盔甲效果", link: "/tutorial/gameplay/armor-effect" },
+       
         { text: "统一货币值", link: "/tutorial/gameplay/ucv" },
         { text: "职业", link: "/tutorial/gameplay/jobs" },
         { text: "饰品", link: "/tutorial/gameplay/artifact" },
