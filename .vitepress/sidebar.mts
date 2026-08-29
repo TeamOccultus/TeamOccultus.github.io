@@ -661,6 +661,15 @@ export const sidebar:
       ],
     },
     {
+      text: "材料",
+      items: [
+        { text: "基础材料", link: "/tutorial/material/basic" },
+        { text: "进阶材料", link: "/tutorial/material/advanced" },
+        { text: "终极材料", link: "/tutorial/material/ultimate" },
+      ],
+      collapsed: true,
+    },
+    {
       text: "工具与武器",
       link: "/tutorial/tool/",
       items: [
@@ -694,15 +703,7 @@ export const sidebar:
     {
       text: "物品",
       items: [
-        {
-          text: "材料",
-          items: [
-            { text: "基础材料", link: "/tutorial/material/basic" },
-            { text: "进阶材料", link: "/tutorial/material/advanced" },
-            { text: "终极材料", link: "/tutorial/material/ultimate" },
-          ],
-          collapsed: true,
-        },
+        
         {
           text: "传说武器",
           items: [
