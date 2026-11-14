@@ -60,13 +60,3 @@ OTeam：
 
 其他：
 - 筱风鸢：策划（开发组）
-
-
-歌曲曲目
-- 雷光战曲｜Thunderclap March - FREirc作/编曲
-- 平原遐想｜Plain Thoughts - FREirc作/编曲
-- 沙海古音｜Echoes of Sand Sea - LnW作/编曲
-- 被放逐者的颂歌｜Hymn of the Exiled - LnW作/编曲
-- 待续……
-
-
