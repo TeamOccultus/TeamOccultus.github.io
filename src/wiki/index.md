@@ -13,8 +13,8 @@
   <Card title="生物" link="/entities" icon="👾">
     查看新生物及其习性。
   </Card>
-  <Card title="生物" link="/entities" icon="👾">
-    查看新生物及其习性。
+  <Card title="音乐" link="/music" icon="🎵">
+    查看音乐名单与跳转播放。
   </Card>
 </CardGrid>
 
